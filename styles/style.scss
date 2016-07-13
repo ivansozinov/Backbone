@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+
+/* Переменные цветов */
+$red:#F55B5B;
+$yellow:#FCE483;
+$blue:#4EA0ED;
+$green: #51C726;
+$violet: #B954C4;
+$navy: #2D63E0;
+$aqua:#48E8E5; 
+$standartBorder: 2px solid;
+
+/* Общие стили */
+
+html {
+      height:100%;
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+
+
+/* Стиль для ссылок */
+a {
+  text-decoration: none;
+  color: $navy;
+}
+
+/* Стили для Header */
+#header{
+      border-bottom: $standartBorder $yellow;
+      height: 30px;
+      text-align: center;
+}
+
+
+/* стили для формы */
+form {
+      width: 500px;
+      border: $standartBorder $violet ;
+      margin: {
+              left: 400px;
+              top:50px;}
+      padding: {
+              top:20px;
+              bottom:20px;}
+
+      div {text-align:right;
+      label {color: #F55B5B;
+    }
+  }
+}
+
+.field { 
+      width:250px;
+      text-align:center;
+      margin: { 
+              right:100px;
+              bottom:20px;}
+      color:$blue;
+      border: 1px solid $green;
+} 
+
+
+/* Стили для кнопок */
+#buttonWrap {
+          text-align:center;
+}
+
+.button {
+      text: {
+          decoration:none; 
+          align:center;}
+      padding:11px 32px; 
+      border:none; 
+      color: $aqua; 
+      background:#ffffff; 
+      &:hover {
+            padding:11px 32px; 
+            border:none; 
+            color:#5c88c9; 
+            background:#ffffff;}
+      &:active{
+            padding:11px 32px; 
+            border:none; 
+            color: $green;
+            background:#ffffff;}
+}
+
+
+ /* Стили для таблицы */
+td, th {
+  border: 2px solid  $yellow;
+  padding: 2px; 
+}
+
+#contacts {
+        tr{ min-width: 50px; 
+            height: 30px;
+            text-align: center;}
+        width:700px;
+        max-height:150px;
+        max-width: 900px;
+        border-collapse: collapse;
+        padding:auto;
+        margin: {
+              bottom:100px;
+              left: 300px;}
+        color:$navy;
+}
+
+
+
+ /* Стили футера и его прижимка */
+
+ #wrapper {
+        display: flex;
+        min-height: 97vh;
+        flex-direction: column;
+}
+
+#content {
+      flex: 1;
+}
+
+#footer{
+      position: absolute;
+      left:0;
+      bottom: 0;
+      width: 99%;
+      height: 30px;
+      text-align: right;
+      padding: {
+            top: 10px;
+            right: 1%;}
+      border-top: 2px solid $aqua; 
+      background-color: white;
+}
+
+.Xsolla {
+      font: 700 20px Quicksand;
+      text-indent: 0px;
+      font-weight: bold 700;
+      & span:nth-child(1) {color:$red}
+      & span:nth-child(2) {color: $yellow}
+      & span:nth-child(3) {color: $violet}
+      & span:nth-child(4) {color: $green;}
+      & span:nth-child(5) {color: $green;}
+      & span:nth-child(6) {color:$blue}
+      & span:nth-child(7) {color:$red}
+      & span:nth-child(8) {color: $yellow;}
+      & span:nth-child(9) {color: $violet}
+      & span:nth-child(10) {color: $green;}
+      & span:nth-child(11) {color: $blue}
+      & span:nth-child(12) {color:$red}
+      & span:nth-child(13) {color: $yellow}
+      & span:nth-child(14) {color: $violet}
+      & span:nth-child(15) {color: $green}
+      & span:nth-child(16) {color:$red}
+      & span:nth-child(17) {color:$blue}
+      & span:nth-child(18) {color:$red}
+      & span:nth-child(19) {color: $yellow}
+      & span:nth-child(20) {color: $violet}
+      & span:nth-child(21) {color: $green}
+      & span:nth-child(22) {color: $blue}
+      & span:nth-child(23) {color:$red}
+      & span:nth-child(24) {color: $yellow}
+      & span:nth-child(25) {color: $violet}
+}
